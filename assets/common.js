@@ -1,3 +1,0 @@
-new WOW().init();function openMenu(){document.getElementsByClassName("mobile-nav")[0].classList.add('is-open')}
-function closeMenu(){document.getElementsByClassName("mobile-nav")[0].classList.remove('is-open')}
-function setLink(el){var download_link=el.getAttribute("data-link");var link=document.getElementById("launcher-download");document.getElementsByClassName("selector__link active")[0].classList.remove('active');link.setAttribute("href",download_link);el.classList.add('active')}
