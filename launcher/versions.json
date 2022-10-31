@@ -1,0 +1,105 @@
+[{
+"name": "1.14", 
+"file": "1.14"
+},{
+"name": "1.13.2", 
+"file": "1.13.2",
+"default": "1"
+},{ 
+"name": "Optifine-1.13.2", 
+"file": "Optifine-1.13.2" 
+},{
+"name": "1.13.1", 
+"file": "1.13.1"
+},{
+"name": "Aristois-1.13", 
+"file": "Aristois-1.13",
+"cheats": "1"
+},{ 
+"name": "Optifine-1.13.1", 
+"file": "Optifine-1.13.1" 
+},{
+"name": "1.13", 
+"file": "1.13" 
+},{ 
+"name": "Optifine-1.13", 
+"file": "Optifine-1.13" 
+},{ 
+"name": "1.12.2", 
+"file": "1.12.2" 
+},{ 
+"name": "Forge-1.12.2", 
+"file": "Forge-1.12.2" 
+},{ 
+"name": "Optifine-1.12.2", 
+"file": "Optifine-1.12.2" 
+},{
+"name": "Forge-1.12.1", 
+"file": "Forge-1.12.1" 
+},{ 
+"name": "Optifine-1.12.1", 
+"file": "Optifine-1.12.1" 
+},{ 
+"name": "Optifine-1.12", 
+"file": "Optifine-1.12"
+},{
+"name": "Forge-1.11.2", 
+"file": "Forge-1.11.2" 
+},{
+"name": "Forge-1.11", 
+"file": "Forge-1.11" 
+},{ 
+"name": "Optifine-1.11.2", 
+"file": "Optifine-1.11.2" 
+},{
+"name": "Optifine-1.11", 
+"file": "Optifine-1.11" 
+},{
+"name": "Forge-1.9.4", 
+"file": "Forge-1.9.4" 
+},{
+"name": "Forge-1.9", 
+"file": "Forge-1.9" 
+},{
+"name": "Forge-1.10.2", 
+"file": "Forge-1.10.2" 
+},{
+"name": "Forge-1.10", 
+"file": "Forge-1.10" 
+},{
+"name": "Optifine-1.8.9", 
+"file": "Optifine-1.8.9" 
+},{
+"name": "Forge-1.8.9", 
+"file": "Forge-1.8.9" 
+},{
+"name": "Forge-1.8.8", 
+"file": "Forge-1.8.8" 
+},{
+"name": "1.8", 
+"file": "1.8" 
+},{
+"name": "Flux-1.8", 
+"file": "Flux-1.8",
+"cheats": "1"
+},{
+"name": "Amera-1.8", 
+"file": "Amera-1.8",
+"cheats": "1"
+},{
+"name": "Nova-1.8", 
+"file": "Nova-1.8",
+"cheats": "1"
+},{
+"name": "Forge-1.8", 
+"file": "Forge-1.8" 
+},{ 
+"name": "Optifine-1.8", 
+"file": "Optifine-1.8" 
+},{
+"name": "1.7.10",
+"file": "1.7.10"
+},{
+"name": "Forge-1.7.10", 
+"file": "Forge-1.7.10" 
+}] 

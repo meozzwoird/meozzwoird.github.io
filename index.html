@@ -1,6 +1,346 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>666: ERROR</title></head>
-<meta http-equiv="refresh" content="0; url=https://mclauncher.su/" />
+﻿<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MCLauncher - Бесплатный лаунчер Майнкрафт</title>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <meta name="author" content="xAuthy">
+  <meta name="keywords" content="mclauncher, мслаунчер, мклаунчер, лаунчер, майнкрафт, minecraft, скачать, бесплатно, моды, скины, читы, сборки, лагает, ХочуКакСЭмилем">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="assets\css\fonts.min.css">
+  <link rel="stylesheet" href="assets\css\shared.min.css">
+  <link rel="stylesheet" href="assets\css\main.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
 <body>
-<center><h1>666: ERROR</h1></center>
-<hr><center>nginx</center>
-</body></html>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="wrapper head">
+        <div class="col-xs-3">
+          <p class="brand">MCLauncher</p>
+        </div>
+        <div class="col-lg-7 col-md-9 hidden-xs hidden-sm">
+          <div class="nav-container">
+            <ul class="navlinks">
+              <li>
+                <a class="nav active" href="/index.html"> Главная
+                </a>
+              </li>
+              <li>
+                <a class="nav" target="_blank" href="https://vk.me/mclaunchervk"> Помощь
+                </a>
+              </li>
+              <li>
+                <a class="nav" href="/play.html"> Начать игру
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 hidden-md hidden-xs hidden-sm">
+          <div class="socials hidden-xs hidden-sm">
+            <a target="_blank" class="socials__link" href="https://vk.com/mclaunchervk">
+              <i class="fab fa-vk"></i>
+            </a>
+            <a target="_blank" class="socials__link" href="https://www.youtube.com/">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a target="_blank" class="socials__link" href="https://twitter.com/">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-9 hidden-lg hidden-md hidden-xl">
+          <div class="open-button" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="mobile-nav">
+            <div class="close-button" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </div>
+            <ul>
+              <li>
+              <li>
+                <a class="active" href="/index.html"> Главная
+                </a>
+              </li>
+              <li>
+                 <a target="_blank" href="https://vk.me/mclaunchervk"> Помощь
+                </a>
+              </li>
+              <li>
+                <a href="/play.html"> Начать игру
+                </a>
+              </li>
+              
+            </ul>
+            <div class="socials">
+            <a target="_blank" class="socials__link" href="https://vk.com/mclaunchervk">
+              <i class="fab fa-vk"></i>
+            </a>
+            <a target="_blank" class="socials__link" href="https://www.youtube.com/">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a target="_blank" class="socials__link" href="https://twitter.com/">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="header">
+    <div class="container">
+      <div class="row">
+        <div class="wrapper">
+          <div class="col-lg-5 col-xs-12">
+            <div class="left-block wow bounceInLeft">
+              <p class="heading">
+                <span class="heading_bold">MCLauncher</span> - быстрый. удобный. безопасный.
+              </p>
+              <p class="headline">
+                MCLauncher является одним из лучших лаунчеров. Безопасность и скорость - вот наши главные принципы.
+              </p>
+              <a class="download download__wrapper" id="launcher-download" href="MCLauncher.exe" download="">
+                <div class="download__icon">
+                  <i class="fas fa-download"></i>
+                </div>
+                <div class="download__texts">
+                  <p class="download__head">
+                    Скачать MCLauncher
+                  </p>
+                  <p class="download__subhead">
+                    Актуальная версия 1.8
+                  </p>
+                </div>
+              </a>
+              <div class="platform-selector">
+                <p class="selector__text">Выбор версии:</p>
+                <a class="selector__link active" onclick="setLink(this)" data-link="/MCLauncher.exe">
+                  <i class="fab fa-windows"></i>
+                </a>
+                <a class="selector__link" onclick="setLink(this)" data-link="/MCLauncher.exe">
+                  <i class="fab fa-apple"></i>
+                </a>
+                <a class="selector__link" onclick="setLink(this)" data-link="/MCLauncher.exe">
+                  <i class="fab fa-linux"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-lg-offset-1 hidden-md hidden-sm hidden-xs">
+            <img class="header__image wow bounceInRight" src="assets\images\launcher.jpeg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main">
+    <div class="container">
+      <div class="col-xs-12">
+        <div class="main__content wow fadeInDown">
+          <p class="content__headline">Современный и простой лаунчер</p>
+          <p class="content__body">Дизайн нашего лаунчера на уровень выше других: он приятен для глаза и настолько простой, что запустить игру сможет
+            любой пользователь. Лаунчер укомплектован всеми доступными версиями игры от разработчиков, в любой момент вы
+            сможете установить одну из них, даже самую новую версию Minecraft</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature" style="background-image: url('assets/images/feature/background-1.png');">
+    <div class="container">
+      <div class="row">
+        <div class="wrapper">
+          <div class="col-md-6 col-xs-12">
+            <p class="feature__headline wow bounceInLeft">
+              Установи Forge и Optifine в один клик
+            </p>
+            <p class="feature__body wow bounceInLeft">
+              MCLauncher предоставляет возможность установки модифицированной версии игры в один клик: Forge - необходим для работы с модами,
+              Optifine - для оптимизации игры и повышения FPS. Всё это можно установить отдельно, но придётся где-то искать
+              нужные файлы и настраивать вручную, лаунчер же всё сделает за вас, вам нужно выбрать только необходимую версию.
+              Представьте сколько времени вы сэкономите, используя MCLauncher
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature" style="background-image: url('assets/images/feature/background-2.png');">
+    <div class="container">
+      <div class="row">
+        <div class="wrapper">
+          <div class="col-md-6 col-xs-12">
+            <img class="feature__image wow bounceInLeft" src="assets\images\feature\2.png">
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <p class="feature__headline black wow bounceInRight">
+              Вход с лицензионного аккаунта
+            </p>
+            <p class="feature__body black wow bounceInRight">
+              Не переставайте играть через свой лицензионный аккаунт, используйте все его преимущества: лицензионные сервера, система скинов,
+              собственный ник. Достаточно авторизоваться под своей почтой и паролем. Запросы посылаются напрямую на сервера
+              разработчиков, никто никогда не получит доступ к вашему аккаунту.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature" style="background-image: url('assets/images/feature/background-3.png');">
+    <div class="container">
+      <div class="row">
+        <div class="wrapper">
+          <div class="col-md-6 col-xs-12">
+            <p class="feature__headline wow bounceInLeft">
+              Ненавязчивая и честная реклама
+            </p>
+            <p class="feature__body wow bounceInLeft">
+              В отличие от конкурентов, наш лаунчер не добавляет в игру никаких сторонних серверов, тем самым заставляя вас играть именно
+              там, и конечно же, у нас присутствует лишь 4 слота рекламы, куда мы отбираем действительно самые качественные
+              проекты, а не те, которые больше платят.
+            </p>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <img class="feature__image wow bounceInRight" src="assets\images\feature\3.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="follow-us">
+    <div class="container">
+      <div class="col-xs-12">
+        <p class="follow-us__head wow fadeInDown">
+          Следите за проектом
+        </p>
+        <div class="row center-md">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="social__container">
+              <div class="social wow fadeInDown" style="background-image: url('assets/images/vk.png');">
+                <div class="social__icon">
+                  <i class="fab fa-vk"></i>
+                </div>
+                <p class="social__head">
+                  Группа Вконтакте
+                </p>
+                <div class="social__users">
+                  <i class="fas fa-user"></i>
+                  <p class="social__text">
+                    10 000
+                  </p>
+                </div>
+                <button class="social__button vk">
+                <a target="_blank" href="https://vk.com/mclaunchervk"> Подписаться
+                </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="social__container">
+              <div class="social wow fadeInDown" style="background-image: url('assets/images/youtube.png');">
+                <div class="social__icon">
+                  <i class="fab fa-youtube"></i>
+                </div>
+                <p class="social__head">
+                  Канал YouTube
+                </p>
+                <div class="social__users">
+                  <i class="fas fa-user"></i>
+                  <p class="social__text">
+                    10 000
+                  </p>
+                </div>
+                <button class="social__button youtube">
+                  <a target="_blank" href="https://vk.com/mclaunchervk"> Подписаться
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="social__container">
+              <div class="social wow fadeInDown" style="background-image: url('assets/images/twitter.png');">
+                <div class="social__icon">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <p class="social__head">
+                  Страница Twitter
+                </p>
+                <div class="social__users">
+                  <i class="fas fa-user"></i>
+                  <p class="social__text">
+                    10 000
+                  </p>
+                </div>
+                <button class="social__button twitter">
+                  <a target="_blank" href="https://vk.com/mclaunchervk"> Подписаться
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-xs-12">
+          <ul class="links">
+            <li>
+                <a class="link active" href="/index.html"> Главная
+                </a>
+            </li>
+            <li>
+                <a class="link" target="_blank" href="https://vk.me/mclaunchervk"> Помощь
+                </a>
+            </li>
+            <li>
+                <a class="link" href="/play.html"> Начать игру
+                </a>
+            </li>
+          </ul>
+          
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <div class="footer__copyright">
+            <img src="assets\images\logo_small.png" style="margin-bottom: 10px;">
+            <p class="copyright__text">
+              Все права защищены.
+            </p>
+            <p class="copyright__text">
+              Любое копирование материала запрещено.
+            </p>
+            <p class="copyright__text">
+              2018-2022 год.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="assets\common.js"></script>
+
+</body>
+
+</html>
